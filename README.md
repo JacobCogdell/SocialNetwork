@@ -70,8 +70,17 @@ network.add_friendship("Jordan", "Taylor")  # Error: Taylor doesn't exist
 
 network.print_network()
 '''
-Alex: Jordan, Morgan
-Jordan: Alex
-Morgan: Alex
+Index 0: Empty
+Index 1: Empty
+Index 2: Empty
+Index 3: Empty
+Index 4: Empty
+Index 5: - Amy: 111-222-3333 - May: 222-333-1111 
+Index 6: Empty
+Index 7: - Rebecca: 999-444-9999 
+Index 8: Empty
+Index 9: - John: 909-876-1234 
 '''
+# Edge Case #3 - Searching for a value not in the table
+print(table.search("Chris")) # None
 ```
