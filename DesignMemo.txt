@@ -1,0 +1,14 @@
+I had some trouble starting with the COMPSV-Assignment9 template (the option to use the template wasn't showing).  So I started from last
+week's template and then added the social_network.py and README.md files with the starter code.
+
+This week's assignment focuses on the graph data structure.  It takes advantage of the dictionary functionality to make it easy 
+to establish bi-directional relationships between people.  This is what makes it different than the way we have used lists and 
+trees.  Those structures would not have had as efficient look ups and the relationships are oriented around one way relationships 
+The ability to have a key based on a person's name allows us to quickly add relationships to that person.  For a list, you would 
+have to touch each element to find a person and for a tree, you would have to search.  I found that the performance was very quick 
+and seems to be efficient.  The design is structurally limited in that it does not support name collisions which would happen in a 
+larger data set.  
+
+The past several assignments work together to establish a pattern of working code with a class representing the data and a class 
+that manages or acts upon the data.  I really like this approach as it helps me to directly compare the different approaches 
+and data structures.

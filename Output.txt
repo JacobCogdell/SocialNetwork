@@ -1,0 +1,9 @@
+{'Alex': Person(name='Alex'), 'Jordan': Person(name='Jordan')}
+Person 'Johnny' not found in the network.
+Alex is friends with Jordan, Morgan, Taylor
+Jordan is friends with Alex, Taylor
+Morgan is friends with Alex, Casey, Riley
+Taylor is friends with Jordan, Riley, Alex
+Casey is friends with Morgan, Riley
+Riley is friends with Taylor, Casey, Morgan
+Cruella has no friends defined.
